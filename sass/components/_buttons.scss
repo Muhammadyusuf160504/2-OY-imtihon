@@ -1,0 +1,135 @@
+.header-btn {
+    width: 22rem;
+    height: 7rem;
+    border: 0.2rem solid $primary-color;
+    background-color: inherit;
+    border-radius: 0.5rem;
+    font-size: 2.4rem;
+    line-height: 1.5;
+    color: $black-color;
+    @include responsive(tablet) {
+        display: none;
+    }
+}
+.burger-btn {
+    display: none;
+    @include responsive(tablet) {
+        display: block;
+    }
+}
+.site-btn {
+    width: 438px;
+    border-radius: 15px;
+    background-color: $primary-color;
+    @include responsive(m-desktop) {
+        width: 292px;
+        border-radius: 5px;
+    }
+    @include responsive(phone) {
+        width: 305px;
+        border-radius: 5px;
+        margin: 0 auto;
+    }
+    @include responsive(mobile) {
+    width: 289px;
+    border-radius: 5px;
+    }
+    h5 {
+        font-family: $site-font;
+        font-weight: 400;
+        font-size: 3.6rem;
+        line-height: 1.5;
+        padding: 3.2rem 0;
+        color: $white-color;
+        @include responsive(m-desktop) {
+            font-size: 2.4rem;
+            line-height: 1.5;
+            padding: 2.2rem 0;
+        }
+        @include responsive(phone) {
+            font-size: 1.8rem;
+            font-weight: 500;
+            line-height: 1.5;
+            padding: 2.4rem 0;
+        }
+        @include responsive(mobile) {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            padding: 1.8rem 0;
+        }
+    }
+}
+.section3__btn {
+    width: 100%;
+    max-width: 218px;
+    border-radius: 5px;
+    background-color: $primary-color;
+    @include responsive(m-desktop) {
+        max-width: 196px;
+        border-radius: 5px;
+    }
+    @include responsive(tablet) {
+        max-width: 178px;
+        border-radius: 5px;
+    }
+    h5 {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.5;
+        color: $white-color;
+        margin: 1.5rem 0;
+        @include responsive(m-desktop) {
+            font-size: 1.8rem;
+            line-height: 1.5;
+        }
+        @include responsive(tablet) {
+            font-size: 1.6rem;
+            line-height: 1.5;
+            margin: 1.3rem 0;
+        }
+    }
+}
+.input-btn {
+    width: 264px;
+    height: 80px;
+    border-radius: 10px;
+    background-color: $primary-color;
+    h6 {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 1.5;
+        color: $white-color;
+    }
+    @include responsive(m-desktop) {
+        width: 193px;
+        height: 60px;
+        h6 {
+            font-size: 1.6rem;
+            line-height: 1.5;
+        }
+    }
+    @include responsive(tablet) {
+        width: 145px;
+        height: 50px;
+        h6 {
+            font-size: 1.3rem;
+            line-height: 1.5;
+        }
+    }
+    @include responsive(phone) {
+        width: 193px;
+        height: 60px;
+        h6 {
+            font-size: 1.6rem;
+            line-height: 1.5;
+        }
+    }
+    @include responsive(mobile) {
+        width: 290px;
+        height: 60px;
+        h6 {
+            font-size: 1.4rem;
+            line-height: 1.5;
+        }
+    }
+}

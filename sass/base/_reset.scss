@@ -1,0 +1,33 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*:focus {
+    // outline: 1px solid $primary-color;
+    outline: 4px;
+}
+
+html {
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    // background-color: $light-color;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+
+main {
+    flex-grow: 1;
+}
